@@ -1,0 +1,237 @@
+.fixed-btn {
+  position: fixed; /* Makes the button fixed */
+  bottom: 20px; /* Sets the distance from the bottom */
+  right: 20px; /* Sets the distance from the right */
+}
+
+
+@media screen and (max-width: 600px) {
+  .landing-page-name {
+    font-size: 3vh; /* Adjusted font size for phone-sized screens */
+  }
+}
+
+body{
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  word-wrap: break-word;
+  background-color: #FAF8F4;
+  color:#0D221B;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  color:#FAF8F4 !important;
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;  
+  z-index: 1000;
+  align-items: center;
+  padding: 0 80px;
+}
+
+.nav{
+  margin-bottom: 50px;
+}
+
+.nav-content{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.nav-content:hover{
+  text-decoration: underline;
+  text-decoration-color: #0D221B;
+  text-decoration-thickness: 3px;
+}
+
+.download-resume:hover{
+  background-color: #0d221b;
+}
+
+.landing-page > .download-resume:hover{
+  background-color: white;
+}
+
+.landing-page{
+  padding: 110px 60px;
+}
+
+.landing-page > h5 {
+  font-weight: 400;
+  font-size: 1.4rem;
+  padding: 8px 0px;
+  margin: 0 0;
+}
+
+.landing-page-name{
+  margin: 0px 0px 0px 0px;
+  font-weight: 600;
+  font-size: 9vh;
+}
+
+.logo-button > a, .landing-page > .download-resume{
+  border-radius: 12px;
+  border: 2px solid #0d221b;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAF8F4;
+  color:#0d221b;
+}
+
+.logo-button{
+  margin: 20px 0px;
+  display: block;
+}
+
+.logos{
+  padding: 20px 0px;
+
+}
+
+.logo-button > a{
+  margin-right: 12px;
+}
+
+.title{
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+.projects{
+  margin-right: 30px;
+}
+
+.service-title{
+  background-color: #0D221B;
+  color:#FAF8F4;
+  margin-top: 100px;
+  padding-top: 40px;
+  margin-bottom: 0;
+  letter-spacing: 1rem;
+}
+
+.service-content > h4{
+  font-weight: 600;
+}
+
+.services-nate{
+  background-color:#0D221B;
+  padding: 60px 20px;
+}
+
+.services{
+  padding: 0px 2rem;
+}
+
+.services-item{
+  background-color:#FAF8F4;
+  height: 300px;
+  border-radius: 16px;
+  margin: 2px 16px;
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  background-color: #0D221B;;
+}
+
+.service-icon{
+  font-size: 40px;
+}
+
+.projects-title{
+  color:#0D221B;
+  margin-bottom: 50px;
+  letter-spacing: 1rem;
+}
+
+.grid-item > container{
+  height: 250px;
+}
+
+.projects-container{
+  text-align: center;
+}
+
+.card-container {
+  margin: 0 auto; 
+  max-width: 960px;
+}
+
+.card-image > img{
+  height: 160px;
+  display: flex;
+}
+
+
+.page-footer {
+  padding-top: 20px;
+  color: #FAF8F4;
+  background-color: #0D221B !important;
+}
+
+.footer, .page-footer {
+  bottom: 0; 
+  width: 100%; 
+  z-index: 1000; 
+}
+
+.footer-ul{
+  color:#FAF8F4;
+  text-decoration: none;
+}
+
+.page-footer{
+  margin-top: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  grid-gap: 20px; 
+  justify-content: center;
+  align-items: center; 
+  text-wrap:wrap;
+}
+
+.grid-item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px; 
+}
+
+.card-content > h11{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-content > i.btn{
+  border-radius: 16px;
+  font-size: 14px;
+  text-transform: lowercase;
+  margin:12px 4px;
+}
+
+.grid-item > .card-action{
+  color:#0D221B !important; 
+}
+
+/* Media query for small screens */
+@media screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}

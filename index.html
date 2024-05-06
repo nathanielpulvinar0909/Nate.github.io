@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nate's Website</title>
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="materialize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- CDNJS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Materialize CSS -->
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+</head>
+
+<body>
+  <div class="navbar-fixed" style="padding-bottom: 100px">
+    <nav class="nav" id="home">
+      <div class="nav-wrapper white navbar">
+        <a href="#!" class="brand-logo black-text"><img src="logo nate.png" style="width: 100px;"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger black-text"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down black-text ">
+          <li><a href="#home" class="black-text nav-content">Home</a></li>
+          <li><a href="#services" class="black-text nav-content">Services</a></li>
+          <li><a href="#projects" class="black-text nav-content projects ">Projects</a></li>
+          <li><a href="Pulvinar_Resume.pdf" download="Pulvinar_Resume.pdf" target="_blank" class="btn-small hireme"
+              style="border-radius: 30px; background-color: #0D221B;">Get
+              Resume
+              <i class="material-icons right">open_in_new</i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+
+  <ul class="sidenav black-text" style="padding-top: 200px;" id="mobile-demo">
+    <li><a class="black-text" href="#home">Home</a></li>
+    <li><a class="black-text" href="#services">Services</a></li>
+    <li><a class="black-text" href="#projects">Projects</a></li>
+  </ul>
+  <main>
+    <!-- Landing Page -->
+    <div class="landing-page" style="margin: 0px;">
+      <h6>Your programming buddy,</h6>
+      <h2 class="landing-page-name">Nathaniel Pulvinar</h2>
+      <h5>Building the future, one line at a time.</h5>
+      <div class="logo-button">
+        <a class="waves-effect waves-light btn button-logo black-text logos" style="background-color: #FAF8F4;"
+          href="https://github.com/nathanielpulvinar0909" target="_blank"><i
+            class="fa-brands fa-square-github left"></i>Github</a>
+        <a class="waves-effect waves-light btn button-logo black-text logos" style="background-color: #FAF8F4;"
+          href="https://ph.linkedin.com/in/nathaniel-pulvinar-435a6b233" target="_blank"><i
+            class="fa-brands fa-linkedin left"></i>LinkedIn</a>
+        <a class="waves-effect waves-light btn button-logo black-text logos" style="background-color: #FAF8F4;"
+          href="mailto:nathanielpulvinar0909@gmail.com?subject=Your%20Subject%20Here&body=Your%20Predefined%20Email%20Body"
+          target="_blank"><i class=" fa-brands fa-google
+          left"></i>Gmail</a>
+      </div>
+      <a class="waves-effect waves-light btn black-text download-resume" href="Pulvinar_Resume.pdf"
+        download="Pulvinar_Resume.pdf" target="_blank"><i class=" fa-solid fa-download left"></i>Download
+        Resume</a>
+
+
+    </div>
+
+    <!-- Services -->
+    <h1 id="services" class="title service-title #212121 grey darken-4">Services</h1>
+    <div class="grid-container services-nate #212121 grey darken-4">
+      <div class=" grid-item services-item">
+        <div class=" service-content">
+          <i class="service-icon fa-solid fa-code"></i>
+          <h4>Website Developer</h4>
+          <p>I can <strong>craft beautiful and functional websites</strong> that not only look amazing but also
+            deliver an exceptional user experience. I speak the languages of the web <strong>(HTML, CSS, JavaScript,
+              Materialize CSS,
+              ReactJS)</strong>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item services-item">
+        <div class=" service-content">
+          <i class="service-icon fa-solid fa-database"></i>
+          <h4>Data Analyst</h4>
+          <p>Drowning in data? Don't worry, I <strong>can transform that data chaos into clarity.</strong> I'll clean,
+            analyze, and <strong>interpret your data, uncovering hidden trends and insights</strong> that can fuel
+            better decision-making.
+          </p>
+        </div>
+      </div>
+      <div class="grid-item services-item">
+        <div class=" service-content">
+          <i class="service-icon fa-brands fa-python"></i>
+          <h4>Programmer</h4>
+          <p>Need a program to create a custom software solution to fit your
+            unique needs? I <strong>can code my way through any challenge,</strong> using the right programming language
+            <strong>(Python,
+              Java, you choose!)</strong> to bring your ideas to life.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Projects -->
+    <h1 id="projects" class="title projects-title">Projects</h1>
+    <div class="grid-container" style="margin-bottom: 30px;">
+      <div class="grid-item container #424242 grey darken-3">
+        <div class="card" style="margin: 0 auto;">
+          <div class="card-image">
+            <img src="project-personal-website.png">
+          </div>
+          <div class="card-content">
+            <h11 style="display: block; " style=" text-align: center;">Personal Website</h11>
+            <i class=" btn #212121 grey darken-4 white-text">HTML</i>
+            <i class=" btn #212121 grey darken-4 white-text">JavaScript</i>
+            <p>My personal website to showcase my skills, experiences, and interests, all wrapped up in a reflection of
+              my unique personality.</p>
+          </div>
+          <div class="card-action">
+            <a class="black-text" style="text-align: center; display: flex; justify-content: center;"
+              href="https://github.com/nathanielpulvinar0909/Personal_Website" target="_blank">Link to
+              the repos</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item container #424242 grey darken-3 #424242 grey darken-3">
+        <div class="card" style="margin: 0 auto;">
+          <div class="card-image">
+            <img src="project-cashmate.png">
+          </div>
+          <div class="card-content">
+            <h11 style="display: block; " style=" text-align: center;">Cashmate</h11>
+            <i class=" btn #212121 grey darken-4 white-text">HTML</i>
+            <i class=" btn #212121 grey darken-4 white-text">PHP</i>
+            <i class=" btn #212121 grey darken-4 white-text">Java</i>
+            <p>A helpful tool to track your financial goals, create budgets, and watch your savings grow steadily over
+              time.</p>
+          </div>
+          <div class="card-action">
+            <a class="black-text" style="text-align: center; display: flex; justify-content: center;"
+              href="https://github.com/RMAELILLA/CashMate-Blanc-Capybara" target="_blank">Link to
+              the repos</a>
+          </div>
+        </div>
+      </div>
+      <div class=" grid-item container #424242 grey darken-3 #424242 grey darken-3">
+        <div class="card" style="margin: 0 auto;">
+          <div class="card-image">
+            <img src="project-kapenated.png">
+          </div>
+          <div class="card-content">
+            <h11 style="display: block; " style=" text-align: center;">Kapenated</h11>
+            <i class=" btn #212121 grey darken-4 white-text">HTML</i>
+            <p>A virtual storefront brewing up customer interest with mouthwatering menus, inviting ambiance,
+              and
+              striking prices of coffee</p>
+          </div>
+          <div class="card-action">
+            <a class="black-text" style="text-align: center; display: flex; justify-content: center;"
+              href="https://github.com/nathanielpulvinar0909/Coffee-Shop" target="_blank">Link to
+              the repos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item container #424242 grey darken-3 #424242 grey darken-3">
+        <div class="card" style="margin: 0 auto;">
+          <div class="card-image">
+            <img src="project-qr-scanner.PNG">
+          </div>
+          <div class="card-content">
+            <h11 style="display: block; " style=" text-align: center;">QR Code canner</h11>
+            <i class=" btn #212121 grey darken-4 white-text">C#</i>
+            <p>Bridge the gap between physical and digital worlds by instantly decoding QR codes with your camera
+            </p>
+          </div>
+          <div class="card-action">
+            <a class="black-text" style="text-align: center; display: flex; justify-content: center;"
+              href="https://github.com/nathanielpulvinar0909/Assignment-5" target="_blank">Link to
+              the repos</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item container #424242 grey darken-3">
+        <div class="card" style="margin: 0 auto;">
+          <div class="card-image">
+            <img src="project-tic-tac-toe.png">
+          </div>
+          <div class="card-content">
+            <h11 style="display: block; " style=" text-align: center;">Tic tac toe</h11>
+            <i class=" btn #212121 grey darken-4 white-text">C#</i>
+            <p> A classic game of strategy brought to life on your device, offering a fun and challenging
+              way to test your skills.</p>
+          </div>
+          <div class="card-action">
+            <a class="black-text" style="text-align: center; display: flex; justify-content: center;"
+              href="https://github.com/nathanielpulvinar0909/Tic-Tac-Toe-using-C-Sharp" target="_blank">Link to
+              the repos</a>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item container #424242 grey darken-3">
+        <div class="card" style="margin: 0 auto;">
+          <div class="card-image">
+            <img src="projects-pdf maker.PNG">
+          </div>
+          <div class="card-content">
+            <h11 style="display: block; " style=" text-align: center;">Resume Generator</h11>
+            <i class=" btn #212121 grey darken-4 white-text">C#</i>
+            <p>Transform your online forms into professional-looking PDF documents, making it more convinient and
+              efficient</p>
+          </div>
+          <div class="card-action">
+            <a class="black-text" style="text-align: center; display: flex; justify-content: center;"
+              href="https://github.com/nathanielpulvinar0909/PDF-Generator" target="_blank">Link to
+              the repos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="#212121 grey darken-4 page-footer footer">
+    <div class="container footer-container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Nathaniel Pulvinar</h5>
+          <p class="grey-text text-lighten-4">"Building the future, one line at a time."</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Contact Me</h5>
+          <ul class="footer-ul">
+            <li><a class="" href="#!">Github</a></li>
+            <li><a class="" href="#!">LinkedIn</a></li>
+            <li><a class="" href="#!">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container" style="text-align:center ">
+        © 2024 Copyright
+      </div>
+    </div>
+  </footer>
+
+  <!-- Fixed Floating Button -->
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large #424242 grey darken-3 pulse">
+      <i class="large material-icons">more_horiz</i>
+    </a>
+    <ul>
+
+      <li><a href="https://github.com/nathanielpulvinar0909" target="_blank"
+          class="btn-floating #424242 grey darken-3"><i class="fa-brands fa-square-github"></i></a></li>
+      <li><a
+          href="mailto:nathanielpulvinar0909@gmail.com?subject=Your%20Subject%20Here&body=Your%20Predefined%20Email%20Body"
+          target="_blank" class="btn-floating #424242 grey darken-3"><i class="material-icons">create</i></a>
+      </li>
+      <li><a href="Pulvinar_Resume.pdf" download="Pulvinar_Resume.pdf" target="_blank" class=" btn-floating #424242 grey
+          darken-3"><i class="material-icons">perm_contact_calendar</i></a></li>
+
+    </ul>
+  </div>
+
+  <!-- Materialize CSS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  <!-- Materialize JS -->
+  <script src="index.js"></script>
+</body>
+
+</html>
