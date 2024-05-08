@@ -5,9 +5,9 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .landing-page-name {
-    font-size: 3vh; /* Adjusted font size for phone-sized screens */
+    font-size: 3rem !important;  /* Example: Adjust font size for smaller screens */
   }
 }
 
